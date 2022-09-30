@@ -1,0 +1,24 @@
+{
+    "name": "js-blch",
+    "version": "1.0.0",
+    "description": "blockchain implementation in js",
+    "main": "src/index.ts",
+    "scripts": {
+        "dev": "nodemon src/index.ts -",
+        "lint": "eslint . --ext .ts"
+    },
+    "keywords": [
+        "blockchain"
+    ],
+    "author": "Ildar Gainatullin",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "18.7.20",
+        "@typescript-eslint/eslint-plugin": "5.38.0",
+        "@typescript-eslint/parser": "5.38.0",
+        "cross-env": "7.0.3",
+        "eslint": "8.24.0",
+        "nodemon": "2.0.20",
+        "typescript": "4.8.3"
+    }
+}
